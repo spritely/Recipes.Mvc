@@ -32,7 +32,7 @@ build:
   verbosity: normal
 
 after_test:
-  - nuget pack "%APPVEYOR_BUILD_FOLDER%\Recipes\PackageSpecs\Recipes.Mvc.CatchAllRoute.nuspec" -BasePath "%APPVEYOR_BUILD_FOLDER%\Recipes.Mvc\PackageSpecs" -Properties "Configuration=%configuration%;Platform=%platform%;Version=%version_catchallroute%" -OutputDirectory "%TEMP%"
+  - nuget pack "%APPVEYOR_BUILD_FOLDER%\Recipes.Mvc\PackageSpecs\Recipes.Mvc.CatchAllRoute.nuspec" -BasePath "%APPVEYOR_BUILD_FOLDER%\Recipes.Mvc\PackageSpecs" -Properties "Configuration=%configuration%;Platform=%platform%;Version=%version_catchallroute%" -OutputDirectory "%TEMP%"
   - appveyor PushArtifact "%TEMP%\Spritely.Recipes.Mvc.CatchAllRoute.%version_catchallroute%.nupkg"
 
 deploy:

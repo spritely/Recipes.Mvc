@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+    <metadata>
+        <id>Spritely.Recipes.Mvc.CatchAllRoute</id>
+        <version>$version$</version>
+        <title>Spritely.Recipes.Mvc.CatchAllRoute</title>
+        <authors>Victor Robinson</authors>
+        <owners>Victor Robinson</owners>
+        <language>en-US</language>
+        <licenseUrl>https://github.com/spritely/Recipes.Mvc/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/spritely/Recipes.Mvc</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <summary>CatchAllRoute recipe.</summary>
+        <description>Collection of simple pieces of reusable code (for ASP.NET MVC) designed such that dependencies aren't forced upon consumers of its packages. Package is shipped as source code.</description>
+        <copyright>Copyright (C) 2015</copyright>
+        <tags>Spritely Recipes CatchAllRoute</tags>
+        <dependencies>
+            <dependency id="Microsoft.AspNet.Mvc" version="5.2" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\CatchAllRoute.cs" target="content\net45\(Spritely.Recipes)\Mvc\CatchAllRoute.cs" />
+    </files>
+</package>

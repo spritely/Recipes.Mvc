@@ -8,13 +8,19 @@
 // </auto-generated>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace Recipes.Mvc
+namespace Spritely.Recipes.Mvc
 {
     using System;
+    using System.Diagnostics;
+    using System.Diagnostics.CodeAnalysis;
     using System.Web;
     using System.Web.Mvc;
     using System.Web.Routing;
 
+#if !RecipesMvcProject
+    [DebuggerStepThrough]
+    [ExcludeFromCodeCoverage]
+#endif
     internal class CatchAllRoute : RouteBase
     {
         private readonly string action;

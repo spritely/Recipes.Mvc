@@ -8,10 +8,10 @@
 // </auto-generated>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace Recipes.Mvc.Test
+namespace Spritely.Recipes.Mvc.Test
 {
-    using NUnit.Framework;
     using System;
+    using NUnit.Framework;
 
     [TestFixture]
     public class CatchAllRouteTest

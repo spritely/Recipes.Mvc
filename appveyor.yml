@@ -2,14 +2,17 @@
 # It is a continuously incrementing number so when used it violates the reset
 # smaller build parts rule of semantic versioning. Therefore we introduce a
 # second environment variable semantic_version.
-version: 0.1.0.{build}
+version: 0.1.1.{build}
 
 environment:
-  version_catchallroute: 0.1.0
+  version_catchallroute: 0.1.1
 
 configuration:
   - Debug
   - Release
+
+cache:
+  - packages -> **\packages.config
 
 install:
   - set semantic_version=%APPVEYOR_BUILD_VERSION:~0,5%
@@ -27,7 +30,7 @@ assembly_info:
   assembly_informational_version: '$(semantic_version)'
 
 build:
-  publish_nuget: false
+  project: Build.proj
   parallel: true
   verbosity: normal
 

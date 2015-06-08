@@ -20,6 +20,7 @@ namespace Spritely.Recipes.Mvc
 #if !RecipesMvcProject
     [DebuggerStepThrough]
     [ExcludeFromCodeCoverage]
+    [System.CodeDom.Compiler.GeneratedCode("Spritely.Recipes.Mvc", "See package version number")]
 #endif
     internal class CatchAllRoute : RouteBase
     {

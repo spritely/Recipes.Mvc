@@ -17,7 +17,7 @@ namespace Spritely.Recipes.Mvc.Test
     public class CatchAllRouteTest
     {
         [Test]
-        public void Contructor_throws_on_null_arguments()
+        public void Constructor_throws_on_null_arguments()
         {
             Assert.Throws<ArgumentNullException>(() => new CatchAllRoute(null, "test"));
             Assert.Throws<ArgumentNullException>(() => new CatchAllRoute("test", null));

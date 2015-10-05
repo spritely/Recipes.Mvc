@@ -19,6 +19,6 @@
         </dependencies>
     </metadata>
     <files>
-        <file src="..\CatchAllRoute.cs" target="content\net45\(Spritely.Recipes)\Mvc\CatchAllRoute.cs" />
+        <file src="CatchAllRoute.cs" target="content\net45\.Spritely.Recipes\Mvc\CatchAllRoute.cs" />
     </files>
 </package>

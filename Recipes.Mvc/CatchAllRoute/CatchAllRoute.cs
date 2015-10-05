@@ -11,15 +11,13 @@
 namespace Spritely.Recipes.Mvc
 {
     using System;
-    using System.Diagnostics;
-    using System.Diagnostics.CodeAnalysis;
     using System.Web;
     using System.Web.Mvc;
     using System.Web.Routing;
 
 #if !RecipesMvcProject
-    [DebuggerStepThrough]
-    [ExcludeFromCodeCoverage]
+    [System.Diagnostics.DebuggerStepThrough]
+    [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
     [System.CodeDom.Compiler.GeneratedCode("Spritely.Recipes.Mvc", "See package version number")]
 #endif
     internal class CatchAllRoute : RouteBase

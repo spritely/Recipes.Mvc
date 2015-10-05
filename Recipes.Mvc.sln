@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipes.Mvc", "Recipes.Mvc\Recipes.Mvc.csproj", "{6C15E40F-4A03-4E0B-B6F8-4AAB99C40664}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipes.Mvc.Test", "Recipes.Mvc.Test\Recipes.Mvc.Test.csproj", "{8A56EE08-3167-4C68-9B9C-C63AD78F4B33}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{094A5683-2D3B-477F-A168-E66BA22E39E1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0451CD1D-995E-49DD-B5C4-903168A30E8A}"
 	ProjectSection(SolutionItems) = preProject
-		.nuget\packages.config = .nuget\packages.config
+		appveyor.yml = appveyor.yml
 	EndProjectSection
 EndProject
 Global
